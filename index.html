@@ -1,198 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Website Design</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"> 
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Homes</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section class="header">
-        <nav>
-    <a href="index.html" class="hero-btn"> ENDALINE*&</a>
-    <div class="nav-links" id="navLinks">
-        <i class="fa fa-times " onclick="hideMenu()"></i>
-        <ul>
-            <li><a href="index.html" >HOME</a></li>
-            <li><a href="about.html" >ABOUT</a></li>
-            <li><a href="courses.html" > COURSE</a></li>
-            <li><a href="blog.html" > BLOG</a></li>
-            <li><a href="contact.html" > CONTACT</a></li>
-           
-        </ul>
-    </div>
-    <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-
-        <div class="text-box">
-            <h1> World's Biggest University</h1>
-            <p>Making website is now one of the easiest thing in the world.
-                You just need to learn HTLM,CSS, <br> Javascrip and you are good to go </p>
-                <a href="" class="hero-btn"> Visit Us To Know More</a>
+      <nav>
+        <!-- <a href="index.html" class="hero-btn"> ENDALINE*&</a> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="homeowner.html">Home Owner</a></li>
+            <li><a href="services.html"> Services</a></li>
+            <li><a href="tenant.html">Tenant</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Find Your Dream Home with Happy Homes</h1>
+
+        <a href="contact.html" class="hero-btn"> Visit Us To Know More</a>
+      </div>
     </section>
+
+    <!-- #BeginRegion "main-content" -->
+    <section class="main-content">
+      <div class="home-title">
+        <h2>Welcome to Happy Homes</h2>
+        <p>
+          Happy Homes is dedicated to ensuring that every individual in the
+          United States has access to comfortable housing, whether permanently
+          or temporarily. With a profound understanding of the diverse
+          population and housing needs across the country, Happy Homes has been
+          serving as a bridge between homeowners and tenants since its inception
+          in 2005.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="carousel-view">
+          <button id="prev-btn" class="prev-btn">
+            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+              <path
+                d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
+              />
+            </svg>
+          </button>
+          <div id="item-list" class="item-list">
+            <div class="image-item">
+              <img id="item" class="item" src="/images/house1.webp" />
+              <p>house 1</p>
+            </div>
+
+            <div class="image-item">
+              <img id="item" class="item" src="/images/house2.jpeg" />
+              <p>house 2</p>
+            </div>
+            <div class="image-item">
+              <img id="item" class="item" src="/images//house3.jpeg" />
+              <p>house 3</p>
+            </div>
+            <div class="image-item">
+              <img id="item" class="item" src="/images//house4.jpeg" />
+              <p>house 4</p>
+            </div>
+            <div class="image-item">
+              <img id="item" class="item" src="/images/house5.jpeg" />
+              <p>house 5</p>
+            </div>
+            <div class="image-item">
+              <img id="item" class="item" src="/images/house6.jpeg" />
+              <p>house 6</p>
+            </div>
+            <div class="image-item">
+              <img id="item" class="item" src="/images/house7.jpeg" />
+              <p>house 7</p>
+            </div>
+          </div>
+          <button id="next-btn" class="next-btn">
+            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+              <path
+                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Add slideshow or high-quality images here -->
+    </section>
+    <!-- #EndRegion -->
     <!-- Course -->
     <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae numquam ad aspernatur veniam nobis aperiam quas praesentium libero nulla laborum
-                      consequatur minus velit iure error cum ea, asperiores magni eaque?</p>
-            </div>
-
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae numquam ad aspernatur veniam nobis aperiam quas praesentium libero nulla laborum
-                      consequatur minus velit iure error cum ea, asperiores magni eaque?</p>
-            </div>
-
-            <div class="course-col">
-                <h3>Post Graduation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae numquam ad aspernatur veniam nobis aperiam quas praesentium libero nulla laborum
-                      consequatur minus velit iure error cum ea, asperiores magni eaque?</p>
-                     
-            </div>
+      <h1>Our Services:</h1>
+      <p>
+        Happy Homes offers comprehensive services aimed at facilitating seamless
+        housing transactions. Our services include:
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <!-- <h3>Intermediate</h3> -->
+          <p>
+            Establishing links and maintaining records of homeowners and their
+            properties, particularly in South Carolina.
+          </p>
         </div>
+
+        <div class="course-col">
+          <!-- <h3>Degree</h3> -->
+          <p>
+            Assisting renters in finding suitable homes and guiding them through
+            the rental process.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <!-- <h3>
+            Assisting renters in finding suitable homes and guiding them through
+            the rental process.
+          </h3> -->
+          <p>
+            Facilitating short-term rentals and shared living arrangements for
+            individuals seeking affordable housing options.
+          </p>
+        </div>
+      </div>
     </section>
+
     <section class="campus">
-         <h1>Our Global Campus</h1>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-         <div class="row">
-            <div class="campus-col">
-                <img src="/images/img2.jpg" alt="" style="width: 100% ;" height="500px">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>
-
-            <div class="campus-col">
-                <img src="/images/img3.jpg" alt="" style="width: 100% ;" height="500px">
-                <div class="layer">
-                    <h3>NEW YORK</h3>
-                </div>
-            </div>
-
-            <div class="campus-col">
-                <img src="/images/img4.jpg" alt="" style="width: 100% ;" height="500px">
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
-                </div>
-            </div>
+      <h1>Our Global Campus</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img
+            src="/images/img2.jpg"
+            alt=""
+            style="width: 100%"
+            height="500px"
+          />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
         </div>
-    </section>
 
-    <!-- Facilities -->
-    <section class="facilities">
-        <h1>Our Facilities</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        
-        <div class="row">
-            <div class="facilities-col"> 
-                <img src="/images/img5.jpg" alt="" style="width: 100%;" height="400px">
-                <h3>World Class Library</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    . Perspiciatis ipsam magni numquam quis!</p>
-            </div>
-
-            <div class="facilities-col">
-                <img src="/images/img6.jpg" alt="" style="width: 100%;" height="400px">
-                <h3>Largest Play Ground </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    . Perspiciatis ipsam magni numquam quis!</p>
-            </div>
-
-            <div class="facilities-col">
-                <img src="/images/img13.jpg" alt="" style="width: 150%px;" height="400px">
-                <h3>Tasty and Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    . Perspiciatis ipsam magni numquam quis!</p>
-                   
-            </div>
+        <div class="campus-col">
+          <img
+            src="/images/img3.jpg"
+            alt=""
+            style="width: 100%"
+            height="500px"
+          />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
         </div>
+
+        <div class="campus-col">
+          <img
+            src="/images/img4.jpg"
+            alt=""
+            style="width: 100%"
+            height="500px"
+          />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
     <section class="testimonials">
-        <h3> What Our Student Says</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row">
-            <div class="testimonial-col">
-                <img src="/images/img9.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat asperiores
-                         nemo hic deserunt ducimus quam et quae exercitationem at,
-                         aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo laudantium repellat.</p>
-                         <h3>Christine Berkley</h3>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star-o"></i>
-                </div>
-            </div>
-
-            <div class="testimonial-col">
-                <img src="/images/img9.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat asperiores
-                         nemo hic deserunt ducimus quam et quae exercitationem at,
-                         aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo laudantium repellat.</p>
-                         <h3>David</h3>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                         <i class="fa fa-star-half-o"></i>
-                </div>
-            </div>
+      <h3>What Our Customers Says</h3>
+      <p>Here are some fictional testimonials from Happy Homes' clients:</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="/images/small1.jpeg" alt="testimonial-image1" />
+          <div>
+            <p>
+              Happy Homes made finding my dream apartment a breeze! Their
+              website was user-friendly, and their team provided excellent
+              support throughout the entire process. I highly recommend their
+              services to anyone searching for their perfect home.
+            </p>
+            <h3>Sarah T. - Los Angeles</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
         </div>
+
+        <div class="testimonial-col">
+          <img
+            src="/images/small3.jpeg"
+            alt="testimonial-image2"
+            style="object-fit: cover"
+          />
+          <div>
+            <p>
+              I recently relocated to Chicago for work and needed to find a
+              place to live quickly. Happy Homes came to the rescue! Their
+              platform made it easy for me to explore rental options in the
+              area, and their team provided valuable insights and guidance
+              throughout the entire process. Thanks to Happy Homes, I found a
+              comfortable apartment in no time.
+            </p>
+            <h3>David M. - Chicago,</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-col">
+          <img
+            src="/images/small2.jpeg"
+            alt="testimonial-image2"
+            style="object-fit: cover"
+          />
+          <div>
+            <p>
+              Happy Homes exceeded my expectations in helping me find a
+              short-term rental during my stay in New York City. Their website
+              was intuitive, and I was able to browse through numerous options
+              until I found the perfect fit. I'm grateful for their assistance
+              and would gladly use their services again.
+            </p>
+            <h3>Emily L. - New York,</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
     </section>
-
-
-
-
 
     <!-- call to action -->
 
     <section class="cta">
-        <h1>Enroll for our various online courses <br>
-             Anywhere From The World</h1>
-        <a href="" class="hero-btn"> CONTACT US</a>
+      <h1>
+        Enroll for our various online courses <br />
+        Anywhere From The World
+      </h1>
+      <a href="" class="hero-btn"> CONTACT US</a>
     </section>
-
 
     <!-- footer -->
 
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat asperiores
-            nemo hic deserunt ducimus quam et quae exercitationem at <br>,
-            aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo laudantium repellat.</p>
-            <div class="icons">
-                <i class="fa fa-facebook"> </i>
-                <i class="fa fa-twitter"> </i>
-                <i class="fa fa-instagram"> </i>
-                <i class="fa fa-linkedin"> </i>
-            </div>
-            <p>Made with <i class="fa fa-heart-o"> </i> by Endaline</p>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat
+        asperiores nemo hic deserunt ducimus quam et quae exercitationem at
+        <br />, aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo
+        laudantium repellat.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"> </i>
+        <i class="fa fa-twitter"> </i>
+        <i class="fa fa-instagram"> </i>
+        <i class="fa fa-linkedin"> </i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"> </i> iVraj Pate</p>
     </section>
     <!-- javascript code -->
-    <script>
-        var navLinks= document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px"
-        }
-    </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

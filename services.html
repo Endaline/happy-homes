@@ -1,0 +1,83 @@
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Homes - Services</title>
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <!-- Navigation Section -->
+        <!-- <a href="index.html" class="hero-btn"> ENDALINE*&</a> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="homeowner.html">Home Owner</a></li>
+            <li><a href="services.html"> Services</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                <a href="property_registration.html">Property Registration</a>
+                <a href="renting.html">Renting</a>
+                <a href="transferring.html">Transferring</a>
+              </div>
+            </li> -->
+            <li><a href="tenant.html">Tenant</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+    <!-- Header Section -->
+    <header>
+      <h1>Our Services</h1>
+      <!-- Add any header content here -->
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+      <h2>Choose a Service</h2>
+      <!-- Add main content here -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          quaerat asperiores nemo hic deserunt ducimus quam et quae
+          exercitationem at
+          <br />, aperiam voluptatum ipsa cupiditate quod placeat quidem
+          explicabo laudantium repellat lo.
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"> </i>
+          <i class="fa fa-twitter"> </i>
+          <i class="fa fa-instagram"> </i>
+          <i class="fa fa-linkedin"> </i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> iVraj Pate</p>
+      </section>
+      <p>&copy; 2024 Happy Homes. All rights reserved.</p>
+    </footer>
+
+    <!-- javascript code -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

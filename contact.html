@@ -1,107 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Website Design</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"> 
-
-</head>
-<body>
-    <section class=" sub-header">
-        <nav>
-    <a href="index.html"> ENDALINE*&</a>
-    <div class="nav-links" id="navLinks">
-        <i class="fa fa-times " onclick="hideMenu()"></i>
-        <ul>
-            <li><a href="index.html" >HOME</a></li>
-            <li><a href="about.html" >ABOUT</a></li>
-            <li><a href="courses.html" > COURSE</a></li>
-            <li><a href="blog.html" > BLOG</a></li>
-            <li><a href="contact.html" > CONTACT</a></li>
-           
-        </ul>
-    </div>
-    <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Happy Homes</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <!-- <a href="index.html"> ENDALINE*&</a> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="homeowner.html">Home Owner</a></li>
+            <li><a href="services.html"> Services</a></li>
+            <li><a href="tenant.html">Tenant</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
       <h1>Contact Us</h1>
     </section>
 
-    <!-- Contact us -->
-
     <section class="location">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.6576626320643!2d7.000484214263336!3d4.828712141879991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce76dee7b6dd%3A0x6072178c9f1b1c15!2sHotel%20Presidential!5e0!3m2!1sen!2sng!4v1644699825717!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <header class="contact-header">
+        <h1>Contact Happy Homes</h1>
+        <p>
+          You can use the form below to contact us or find our physical office
+          location on the map.
+        </p>
+      </header>
+      <div class="contact-us">
+        <div class="address">
+          <div>
+            <i class="fa fa-home"></i>
+            <span
+              ><h5>XYZ Road, ABC Building</h5>
+              <p>South Carolina USA</p>
+            </span>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <span
+              ><h5>+1243453733634</h5>
+              <p>Monday to Saturday</p>
+            </span>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span
+              ><h5>happyhomes@gmail.com.</h5>
+              <p>Eamil us for any information</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <img src="images/contact.jpeg" alt="contact-us-image" />
+          <form>
+            <input type="text" placeholder="Enter your name" required />
+            <input
+              type="number"
+              placeholder="Enter your phone number"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <textarea rows="8" placeholder="Message"></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div>
+        <div class="team">
+          <h1>Our Team</h1>
+          <p>
+            At Happy Homes, we pride ourselves on having a team of dedicated
+            professionals who are committed to ensuring the comfort and security
+            of our residents.
+          </p>
+        </div>
+        <div class="workers">
+          <div class="worker">
+            <img src="images/small1.jpeg" alt="staff 1" />
+            <h2>Jessica Doe</h2>
+            <p>Role: Gardener</p>
+            <p>Experience: 5 years</p>
+            <p>Email: <span>jessica@happyhomes.com</span></p>
+            <p>
+              With a green thumb and a passion for creating beautiful outdoor
+              spaces, Jessica has been our resident gardener for the past five
+              years. His meticulous attention to detail and extensive knowledge
+              of plants and landscaping techniques have transformed our estate's
+              gardens into vibrant and inviting spaces for residents to enjoy.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-linkedin"> </i> -->
+            </div>
+          </div>
+
+          <div class="worker">
+            <img src="images/small2.jpeg" alt="staff 2" />
+            <h2>Jane Smith</h2>
+            <p>Role: Handyman</p>
+            <p>Experience: 3 years</p>
+            <p>Email: <span>jane@happyhomes.com</span></p>
+
+            <p>
+              Jane is our go-to person for all things maintenance-related. With
+              three years of experience under her belt, she has tackled
+              countless repair jobs with skill and efficiency. Whether it's
+              fixing a leaky faucet or repairing a broken door, Jane always goes
+              above and beyond to ensure that our estate remains in top
+              condition.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-linkedin"> </i> -->
+            </div>
+          </div>
+
+          <div class="worker">
+            <img src="images/small3.jpeg" alt="staff 3" />
+            <h2>David Johnson</h2>
+            <p>Role: Security Guard</p>
+            <p>Experience: 7 years</p>
+            <p>Email: <span>david@happyhomes.com</span></p>
+
+            <p>
+              David brings a wealth of experience to his role as our security
+              guard. With seven years of service in law enforcement, he is
+              highly trained in maintaining the safety and security of our
+              residents. David's vigilant presence provides peace of mind to
+              everyone in our estate, knowing that their well-being is in
+              capable hands.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-linkedin"> </i> -->
+            </div>
+          </div>
+
+          <div class="worker">
+            <img src="images/small4.jpeg" alt="staff 4" />
+            <h2>Henry Usef</h2>
+            <p>Role: Security Guard</p>
+            <p>Experience: 7 years</p>
+            <p>Email: <span>henry@happyhomes.com</span></p>
+
+            <p>
+              Henry is a seasoned security guard with seven years of experience
+              in maintaining the safety and security of our estate. With a keen
+              eye for detail and a proactive approach, he ensures that our
+              residents feel secure and protected at all times.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-linkedin"> </i> -->
+            </div>
+          </div>
+
+          <div class="worker">
+            <img src="images/fairwoman.jpeg" alt="staff 5" />
+
+            <h2>Miriam Sonde</h2>
+            <p>Role: Security Guard</p>
+            <p>Experience: 7 years</p>
+            <p>Email: <span>miriam@happyhomes.com</span></p>
+
+            <p>
+              Miriam brings a wealth of experience to her role as a security
+              guard. With seven years of service in the security industry, she
+              is highly trained in handling various security situations with
+              professionalism and efficiency. Miriam's dedication to her job
+              ensures that our estate remains a safe and secure environment for
+              everyone.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-linkedin"> </i> -->
+            </div>
+          </div>
+
+          <div class="worker">
+            <img src="images/small6.jpeg" alt="staff 6" />
+            <h2>Chris Fortune</h2>
+            <p>Role: Security Guard</p>
+            <p>Experience: 7 years</p>
+            <p>Email: <span>chris@happyhomes.com</span></p>
+
+            <p>
+              Chris is a reliable and dedicated security guard with seven years
+              of experience in the field. With a strong sense of responsibility
+              and a commitment to excellence, he plays a crucial role in
+              maintaining the security of our estate. Chris's unwavering
+              vigilance and proactive approach contribute to the peace of mind
+              of our residents.
+            </p>
+            <div class="icons">
+              <i class="fa fa-facebook"> </i>
+              <i class="fa fa-twitter"> </i>
+              <i class="fa fa-instagram"> </i>
+              <!-- <i class="fa fa-envelope"> </i> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701460.7775642031!2d-82.24576864812964!3d33.601007998177145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a5697931d1e3%3A0xb9ffa132f505179e!2sSouth%20Carolina%2C%20USA!5e0!3m2!1sen!2sng!4v1713277256859!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </section>
-<section class="contact-us">
-
-    <div class="row">
-        <div class="contact-col">
-            <div>
-                <i class="fa fa-home"></i>
-                <span><h5>XYZ Road, ABC Building</h5>
-                <p>Bangalore, Karnataka IN</p>
-                </span>
-            </div>
-
-            <div>
-                <i class="fa fa-phone"></i>
-                <span><h5>+1 01243453733634</h5>
-                <p>Monday to Saturday</p>
-                 </span>
-            </div>
-
-
-            <div>
-                <i class="fa fa-envelope-o"></i>
-                <span><h5>info@iendaline@</yahoo.comh5>
-                <p> Eamil me for your query</p>
-                 </span>
-            </div>
-        </div>
-        <div class="contact-col">
-           
-            <form >
-                <input type="text" placeholder="Enter your name " required>
-                <input type="email" placeholder="Enter your email address" required>
-                <input type="text" placeholder="Enter your subject" required>
-                <textarea rows="8" placeholder=" Message"></textarea>
-                <button type="submit" class=" hero-btn red-btn">Send Message </button>
-            </form>
-        </div>
-
-      
-    </div>
-   
-  
-</section>
 
     <!-- footer -->
 
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat asperiores
-            nemo hic deserunt ducimus quam et quae exercitationem at <br>,
-            aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo laudantium repellat lo.</p>
-            <div class="icons">
-                <i class="fa fa-facebook"> </i>
-                <i class="fa fa-twitter"> </i>
-                <i class="fa fa-instagram"> </i>
-                <i class="fa fa-linkedin"> </i>
-            </div>
-            <p>Made with <i class="fa fa-heart-o"> </i> by Endaline</p>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat
+        asperiores nemo hic deserunt ducimus quam et quae exercitationem at
+        <br />, aperiam voluptatum ipsa cupiditate quod placeat quidem explicabo
+        laudantium repellat lo.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"> </i>
+        <i class="fa fa-twitter"> </i>
+        <i class="fa fa-instagram"> </i>
+        <i class="fa fa-linkedin"> </i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"> </i> iVraj Pate</p>
     </section>
     <!-- javascript code -->
     <script>
-        var navLinks= document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px"
-        }
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-</body>
+  </body>
 </html>
