@@ -43,3 +43,16 @@ button {
     font-size: 24px;
   }
 }
+
+.homeowner-footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.homeowner-footer h1 {
+  font-size: 20px;
+}

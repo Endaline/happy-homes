@@ -213,3 +213,16 @@
     width: calc(100% - 20px); /* One worker per row on small screens */
   }
 }
+
+.contact-footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-footer h1 {
+  font-size: 20px;
+}

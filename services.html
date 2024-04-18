@@ -1,18 +1,21 @@
-<!-- services.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Homes - Services</title>
     <link rel="stylesheet" href="css/services.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <section class="sub-header">
       <nav>
-        <!-- Navigation Section -->
-        <!-- <a href="index.html" class="hero-btn"> ENDALINE*&</a> -->
+        <!-- <a href="index.html"> ENDALINE*&</a> -->
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -20,6 +23,8 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="homeowner.html">Home Owner</a></li>
             <li><a href="services.html"> Services</a></li>
+            <li><a href="tenant.html">Tenant</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropbtn">Services</a>
               <div class="dropdown-content">
@@ -28,47 +33,49 @@
                 <a href="transferring.html">Transferring</a>
               </div>
             </li> -->
-            <li><a href="tenant.html">Tenant</a></li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-      <h1>Our Services</h1>
+
+      <h1>About Us</h1>
     </section>
-    <!-- Header Section -->
-    <header class="service-header">
-      <h2>Choose a Service</h2>
+
+    <header class="about-header">
+      <h2>Happy Homes Services</h2>
     </header>
 
-    <!-- Main Content Section -->
-    <section class="main-content">
-      <div style="overflow-x: auto">
-        <table id="customers">
+    <!-- about us content -->
+    <section class="about-us">
+      <div class="container">
+        <table>
           <tr>
-            <th>Facilitating Homeowner-Tenant Connections</th>
-            <th>Temporary and Affordable Housing Solutions</th>
-            <th>Record-Keeping and Property Management</th>
+            <th>Service</th>
+            <th>Description</th>
           </tr>
           <tr>
+            <td>Facilitating Homeowner-Tenant Connections</td>
             <td>
-              <span style="font-weight: 700">Description:</span>
               Happy Homes acts as a bridge between homeowners and tenants,
               facilitating connections and ensuring a smooth rental process for
               both parties. Through our platform, homeowners can list their
               properties, while tenants can browse available options and submit
               rental inquiries.
             </td>
+          </tr>
+          <tr>
+            <td>Temporary and Affordable Housing Solutions</td>
             <td>
-              <span style="font-weight: 700">Description:</span>
               Happy Homes is committed to providing temporary and affordable
               housing solutions to meet the diverse needs of our clients.
               Whether individuals are seeking short-term rentals or shared
               living spaces, we offer options that are convenient, comfortable,
               and budget-friendly.
             </td>
+          </tr>
+          <tr>
+            <td>Record-Keeping and Property Management</td>
             <td>
-              <span style="font-weight: 700">Description:</span>
               Happy Homes maintains comprehensive records of homeowners and
               their properties to ensure efficient property management and
               seamless transactions. Our record-keeping system allows us to keep
@@ -78,83 +85,67 @@
             </td>
           </tr>
           <tr>
+            <td>Personalized Assistance</td>
             <td>
-              <span style="font-weight: 700">Process:</span>
-              Our process involves gathering detailed information from
-              homeowners about their properties, including specifications,
-              amenities, and rental terms. We then match this information with
-              the preferences and requirements of prospective tenants, helping
-              them find the perfect home.
-            </td>
-            <td>
-              <span style="font-weight: 700"> Services Offered:</span>
-              Our services cater to individuals in need of short-term
-              accommodations, such as travelers, students, and professionals on
-              temporary assignments. We also connect with homeowners who are
-              willing to offer their properties for short stays at affordable
-              rates, providing an alternative to traditional rental options.
-            </td>
-            <td>
-              <span style="font-weight: 700">
-                Importance of Record-Keeping:</span
-              >
-              Accurate record-keeping is essential for effective property
-              management, as it helps us match properties with suitable tenants,
-              track rental payments, and resolve any disputes that may arise. By
-              maintaining detailed records, we can ensure that the rental
-              process runs smoothly and efficiently for all parties involved.
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span style="font-weight: 700"> Personalized Assistance:</span>
               We provide personalized assistance to both homeowners and tenants
               throughout the rental journey. Our team offers guidance on
               property listings, rental agreements, and any other aspects of the
               rental process, ensuring a positive experience for all involved.
             </td>
+          </tr>
+          <tr>
+            <td>Property Listing Services</td>
             <td>
-              <span style="font-weight: 700"> Affordability: </span>
-              We understand the importance of affordability in today's housing
-              market, especially for those with limited budgets. That's why we
-              strive to offer housing solutions that are accessible to a wide
-              range of clients, without compromising on quality or comfort.
+              Happy Homes helps homeowners to list their properties effectively,
+              providing guidance on pricing, property descriptions, and
+              showcasing. We ensure that properties are presented in the best
+              possible light to attract potential tenants.
             </td>
+          </tr>
+          <tr>
+            <td>Online Rental Application Processing</td>
             <td>
-              <span style="font-weight: 700"> South Carolina Focus: </span>
-              While our services extend beyond South Carolina, we have a strong
-              focus on this region, where we have established relationships with
-              homeowners and a deep understanding of the local rental market.
-              Our extensive network of properties in South Carolina allows us to
-              offer a wide range of options to our clients.
+              We offer online rental application processing for tenants,
+              streamlining the application process and making it convenient for
+              both tenants and homeowners. Tenants can submit their applications
+              online, and homeowners can review and process them digitally.
             </td>
           </tr>
         </table>
       </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
-      <section class="footer">
-        <h4>About Us</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          quaerat asperiores nemo hic deserunt ducimus quam et quae
-          exercitationem at
-          <br />, aperiam voluptatum ipsa cupiditate quod placeat quidem
-          explicabo laudantium repellat lo.
-        </p>
+    <!-- footer -->
+
+    <section class="footer">
+      <hr />
+      <div class="services-footer">
+        <div>
+          <h1>Address</h1>
+          <p>295 Madison Ave</p>
+          <p>New York NY 10017</p>
+          <p></p>
+        </div>
+        <div>
+          <h1>Phone</h1>
+          <p>(NY) +1 (718) 536-9489</p>
+          <p>(MIA) +1 (305) 930-2156</p>
+        </div>
+        <div>
+          <h1>Email</h1>
+          <p>(MIA) +1 (305) 930-2156</p>
+        </div>
         <div class="icons">
           <i class="fa fa-facebook"> </i>
           <i class="fa fa-twitter"> </i>
           <i class="fa fa-instagram"> </i>
           <i class="fa fa-linkedin"> </i>
         </div>
-        <p>Made with <i class="fa fa-heart-o"> </i> iVraj Pate</p>
-      </section>
-      <p>&copy; 2024 Happy Homes. All rights reserved.</p>
-    </footer>
+      </div>
 
+      <p>Made with <i class="fa fa-heart-o"> </i> iVraj Pate</p>
+      <p>&copy; 2024 Happy Homes. All rights reserved.</p>
+    </section>
     <!-- javascript code -->
     <script>
       var navLinks = document.getElementById("navLinks");
