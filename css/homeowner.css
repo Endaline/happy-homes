@@ -188,8 +188,8 @@ button[type="submit"]:hover {
 
 .testimonial-card {
   flex: 0 1 calc(33.33% - 20px);
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -197,6 +197,10 @@ button[type="submit"]:hover {
 }
 .testimonial-card p {
   color: #000;
+}
+.testimonial-card h1 {
+  font-size: 16px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
