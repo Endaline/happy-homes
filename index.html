@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section class="header">
@@ -21,7 +21,14 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="homeowner.html">Home Owner</a></li>
-            <li><a href="services.html"> Services</a></li>
+            <li class="dropdown">
+              <a href="services.html" class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                <a href="property_registration.html">Property Registration</a>
+                <a href="renting.html">Renting</a>
+                <a href="transferring.html">Transferring</a>
+              </div>
+            </li>
             <li><a href="tenant.html">Tenant</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -108,50 +115,32 @@
           <label for="carousel-1" class="carousel-control next control-3"
             >›</label
           >
-          <!-- <ol class="carousel-indicators">
-            <li>
-              <label for="carousel-1" class="carousel-bullet">•</label>
-            </li>
-            <li>
-              <label for="carousel-2" class="carousel-bullet">•</label>
-            </li>
-            <li>
-              <label for="carousel-3" class="carousel-bullet">•</label>
-            </li>
-          </ol> -->
         </div>
       </div>
     </section>
-    <!-- #EndRegion -->
-    <!-- Course -->
-    <section class="course">
+    <!-- services -->
+    <section class="services">
       <h1>Our Services:</h1>
       <p>
         Happy Homes offers comprehensive services aimed at facilitating seamless
         housing transactions. Our services include:
       </p>
       <div class="row">
-        <div class="course-col">
-          <!-- <h3>Intermediate</h3> -->
+        <div class="services-col">
           <p>
             Establishing links and maintaining records of homeowners and their
             properties, particularly in South Carolina.
           </p>
         </div>
 
-        <div class="course-col">
-          <!-- <h3>Degree</h3> -->
+        <div class="services-col">
           <p>
             Assisting renters in finding suitable homes and guiding them through
             the rental process.
           </p>
         </div>
 
-        <div class="course-col">
-          <!-- <h3>
-            Assisting renters in finding suitable homes and guiding them through
-            the rental process.
-          </h3> -->
+        <div class="services-col">
           <p>
             Facilitating short-term rentals and shared living arrangements for
             individuals seeking affordable housing options.
