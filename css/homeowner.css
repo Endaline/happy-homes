@@ -45,10 +45,10 @@ button {
 }
 
 .homeowner-footer {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  padding: 60px 0;
+  padding: 40px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

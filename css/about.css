@@ -52,9 +52,26 @@
   font-size: 30px;
   margin: 40px 0;
 }
-@media (max-width: 700px) {
-  .sub-header h1 {
+@media (max-width: 1060px) {
+  .about-header h1 {
     font-size: 24px;
+  }
+
+  .about-row {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .about-col h1 {
+    font-size: 25px;
+  }
+
+  .about-col p {
+    line-height: 1.5rem;
+    font-weight: 700;
+  }
+  .about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -166,40 +183,10 @@ nav .fa {
   }
 }
 
-/* call to action */
-.cta {
-  margin: 100px auto;
-  width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/house13.jpeg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  text-align: center;
-  padding: 10px 0;
-  height: 400px;
-}
-
-.cta h1 {
-  color: #fff;
-  /* margin-bottom: 40px; */
-  /* margin-top: 10%; */
-  padding: 0;
-  width: 100%;
-  max-width: 80%;
-  margin: auto;
-}
-@media (max-width: 700px) {
-  .cta h1 {
-    font-size: 24px;
-  }
-}
-
 .about-footer {
-  width: 80%;
   margin: auto;
   text-align: center;
-  padding: 60px 0;
+  padding: 40px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

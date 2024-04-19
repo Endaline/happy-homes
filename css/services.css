@@ -10,27 +10,37 @@
   color: #fff;
 }
 .sub-header h1 {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
-.about-us {
+.services {
   width: 80%;
   margin: auto;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  /* padding-top: 80px; */
+  /* padding-bottom: 50px; */
 }
 
-.about-header {
+.services-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   font-size: 30px;
-  margin: 40px 0;
+  margin: 30px 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .sub-header h1 {
-    font-size: 24px;
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .services-header {
+    font-size: 20px;
+  }
+  .services {
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -142,29 +152,6 @@ nav .fa {
   }
 }
 
-/* call to action */
-.cta {
-  margin: 100px auto;
-  width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/house13.jpeg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  text-align: center;
-  padding: 10px 0;
-  height: 400px;
-}
-
-.cta h1 {
-  color: #fff;
-  /* margin-bottom: 40px; */
-  /* margin-top: 10%; */
-  padding: 0;
-  width: 100%;
-  max-width: 80%;
-  margin: auto;
-}
 @media (max-width: 700px) {
   .cta h1 {
     font-size: 24px;
@@ -185,43 +172,41 @@ table {
 }
 th,
 td {
-  padding: 20px;
+  padding: 25px;
   border: 1px solid #ddd;
 }
 th {
   background-color: #f44336;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   th,
   td {
-    padding: 5px;
+    padding: 20px;
     font-size: 14px;
   }
   table {
     font-size: 14px;
+  }
+  .container {
+    padding: 40px;
+    width: 100%;
+  }
+  .sub-header h1 {
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 1558px) {
-  /* th,
-  td {
-    padding: 5px;
-    font-size: 14px;
-  }
-  table {
-    font-size: 14px;
-  } */
-
   .container {
     max-width: 100%;
   }
 }
 
 .services-footer {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  padding: 60px 0;
+  padding: 40px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

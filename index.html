@@ -50,56 +50,77 @@
         </p>
       </div>
 
-      <div class="container">
-        <div class="carousel-view">
-          <button id="prev-btn" class="prev-btn">
-            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
-              <path
-                d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
-              />
-            </svg>
-          </button>
-          <div id="item-list" class="item-list">
-            <div class="image-item">
-              <img id="item" class="item" src="/images/house1.webp" />
-              <p>house 1</p>
-            </div>
-
-            <div class="image-item">
-              <img id="item" class="item" src="/images/house2.jpeg" />
-              <p>house 2</p>
-            </div>
-            <div class="image-item">
-              <img id="item" class="item" src="/images//house3.jpeg" />
-              <p>house 3</p>
-            </div>
-            <div class="image-item">
-              <img id="item" class="item" src="/images//house4.jpeg" />
-              <p>house 4</p>
-            </div>
-            <div class="image-item">
-              <img id="item" class="item" src="/images/house5.jpeg" />
-              <p>house 5</p>
-            </div>
-            <div class="image-item">
-              <img id="item" class="item" src="/images/house6.jpeg" />
-              <p>house 6</p>
-            </div>
-            <div class="image-item">
-              <img id="item" class="item" src="/images/house7.jpeg" />
-              <p>house 7</p>
-            </div>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-1"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+            checked="checked"
+          />
+          <div class="carousel-item">
+            <img src="images/house4.jpeg" alt="house-1" />
+            <p>house 1</p>
           </div>
-          <button id="next-btn" class="next-btn">
-            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
-              <path
-                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-              />
-            </svg>
-          </button>
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-2"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img src="images/house12.jpeg" alt="house-2" />
+            <p>house 2</p>
+          </div>
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-3"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img src="images/house9.jpeg" alt="house-3" />
+            <p>house 3</p>
+          </div>
+
+          <label for="carousel-3" class="carousel-control prev control-1"
+            >‹</label
+          >
+          <label for="carousel-2" class="carousel-control next control-1"
+            >›</label
+          >
+          <label for="carousel-1" class="carousel-control prev control-2"
+            >‹</label
+          >
+          <label for="carousel-3" class="carousel-control next control-2"
+            >›</label
+          >
+          <label for="carousel-2" class="carousel-control prev control-3"
+            >‹</label
+          >
+          <label for="carousel-1" class="carousel-control next control-3"
+            >›</label
+          >
+          <!-- <ol class="carousel-indicators">
+            <li>
+              <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+          </ol> -->
         </div>
       </div>
-      <!-- Add slideshow or high-quality images here -->
     </section>
     <!-- #EndRegion -->
     <!-- Course -->
@@ -239,7 +260,7 @@
         </div>
         <div>
           <h1>Email</h1>
-          <p>(MIA) +1 (305) 930-2156</p>
+          <p>happyhomes@gmail.com</p>
         </div>
         <div class="icons">
           <i class="fa fa-facebook"> </i>
